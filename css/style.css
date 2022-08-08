@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container {
+    width: 1150px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+/* header */
+header {
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #bbb;
+}
+
+header .image {
+    float: left;
+    width: 400px;
+}
+
+nav {
+    margin-top: 35px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    float: right;
+}
+nav a {
+    color: #D1314B;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+/* end header */
+
+/* 5 bahasa pemograman populer */
+.iklan {
+    background-color: #F7F7F7;
+    padding: 20px;
+    color: #595959;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/* end 5 bahasa pemograman populer */
+
+/* content */
+.two-content {
+    /* padding-top: 40px; */
+    padding-top: 40px;
+}
+
+.two-content .all {
+    line-height: 2;
+    text-align:justify;
+}
+.two-content .content-satu {
+    float: left;
+    width: 730px;
+    padding: 20px;
+}
+.two-content .judul-dan-paragraf h1{
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #707070;
+}
+
+.two-content .judul-dan-paragraf p {
+    color: #A5B1AD;
+}
+
+.two-content .content-dua {
+    float: left;
+    width: 350px;
+}
+.content-satu .gambar {
+    margin-top: 20px;
+}
+
+.content-one p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 50px;
+    margin-top: 10px;
+}
+
+.content-two {
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* end content */
+
+/* artikel terkait */
+.artikel-terkait {
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* end artikel terkait */
+
+
+/* gambar mini gold */
+.gambar-mini-gold {
+    position: relative;
+    /* width: 350px; */
+    padding: 4px;
+    border-radius: 3px;
+    /* box-sizing: border-box; */
+    border: 1px solid #DDDDDD;
+}
+ .gambar-mini-gold img{
+    width: 100%;
+} 
+/* end gambar mini gold */
+
+/* button tulisan */
+.button-tulisan button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #D9534F;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+.button-tulisan button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* end button tulisan */
+
+/* kategori */
+.kategori {
+    /* padding: 10px; */
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kategori h1 {
+    color: #585858;
+    margin-top: 20px;
+}
+
+.kategori ol {
+    margin-left: 15px;
+    margin-top: 20px;
+    color: #696969;
+    line-height: 2;
+    font-size: 19px;
+}
+/* end kategori */
+
+/* search */
+.search {
+    margin-top: 30px;
+}
+.search input{
+    border-radius: 3px;
+    border: none #bbb;
+    padding: 10px;
+    font-size: 18px;
+    width: 320px;
+}
+
+
+/* end search */
+
+/* kotak */
+.kotak {
+    margin-top: 20px;
+    float: left;
+    width: 222px;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: serif;
+    margin-right: 20px;
+    background-color: #EFEFEF;
+}
+.kotak .thumb img{
+    width: 222px;
+}
+
+.kotak .kotak-tulisan {
+    padding: 10px;   
+}
+
+.kotak .kotak-tulisan h2 {
+    color: #707070;
+}
+/* end kotak */
+
+/* footer */
+footer {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #35393A;
+    color: #ABAFB0;
+}
+/* end footer */
